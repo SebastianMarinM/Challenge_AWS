@@ -60,7 +60,7 @@ def main():
         s3_output_location='s3://your-bucket/athena-results/'
     )
 
-    # Example queries
+    # Example queries for challenge
     queries = {
         'provider_summary': """
         SELECT 
